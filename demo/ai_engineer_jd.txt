@@ -1,0 +1,24 @@
+AI Engineer Intern
+
+Responsibilities
+- Build Python services and REST APIs for AI products.
+- Experiment with LLMs, RAG pipelines and prompt engineering.
+- Evaluate models and improve retrieval quality.
+- Work with engineers to test, deploy and monitor services.
+
+Required Qualifications
+- Python
+- APIs / REST
+- Machine Learning fundamentals
+- LLMs and RAG concepts
+- SQL
+- Strong problem solving and communication
+
+Preferred Qualifications
+- FastAPI
+- Docker
+- Vector databases
+- Cloud experience
+- Git
+
+The candidate should be able to explain technical decisions, debug issues and communicate trade-offs clearly.

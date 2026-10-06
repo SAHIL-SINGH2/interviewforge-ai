@@ -1,0 +1,16 @@
+Aarav Mehta
+B.Tech Computer Science | Projects and Internship
+
+Skills
+Python, FastAPI, REST APIs, SQL, MySQL, Git, Pandas, NumPy, Machine Learning, LLMs, RAG, Docker
+
+Experience
+Python Developer Intern — Built REST APIs with FastAPI and processed financial transaction data. Added validation, categorization and database storage.
+
+Projects
+AI Candidate Interview Bot — Built a resume-aware chatbot using an LLM API and a structured candidate profile. Added an honesty-first prompt to avoid unsupported claims.
+Smart Expense Tracker — Developed a FastAPI backend to parse transaction data, store records in a database and categorize expenses.
+
+Achievements
+Implemented API validation and reduced malformed requests during testing by 30%.
+Built projects involving retrieval, prompt engineering and backend integration.

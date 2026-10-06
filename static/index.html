@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>InterviewForge AI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="app-shell">
+<header class="topbar"><div class="brand">✦ InterviewForge AI</div><div class="subbrand">Role-specific interview readiness, built around your resume</div><div id="modeBadge" class="badge">Local adaptive engine</div></header>
+<nav class="steps"><button class="step active" data-view="analyze">01 Analyze</button><button class="step" data-view="interview">02 Interview</button><button class="step" data-view="results">03 Results</button><button class="step" data-view="history">04 History</button></nav>
+<main>
+<section id="analyze" class="view active">
+<div class="hero"><div><span class="eyebrow">INTERVIEW ACCELERATOR</span><h1>Prepare for the interview you're actually walking into.</h1><p>Paste or upload the job description and resume. InterviewForge maps the role, measures job fit, then runs an adaptive voice interview.</p></div><div class="hero-art"><div class="orb">AI</div></div></div>
+<div class="grid two">
+<div class="card"><div class="card-title"><span>Job description</span><span class="hint">Paste or upload</span></div><textarea id="jdText" placeholder="Paste the job description here..."></textarea><input id="jdFile" type="file" accept=".pdf,.docx,.txt"></div>
+<div class="card"><div class="card-title"><span>Resume</span><span class="hint">Paste or upload</span></div><textarea id="resumeText" placeholder="Paste the candidate resume here..."></textarea><input id="resumeFile" type="file" accept=".pdf,.docx,.txt"></div>
+</div>
+<div class="row"><input id="candidateName" class="name-input" placeholder="Candidate name (optional)"><button id="analyzeBtn" class="primary">Analyze role & candidate →</button></div>
+<div id="analysisOut"></div>
+</section>
+<section id="interview" class="view">
+<div class="interview-head"><div><span class="eyebrow">LIVE INTERVIEW</span><h2 id="roleTitle">Your personalized interview</h2><p id="interviewMeta">Resume + JD context carried across every question.</p></div><div class="level-pill" id="levelPill">SCREENING</div></div>
+<div class="grid interview-grid">
+<div class="card interviewer"><div class="ai-face">✦</div><div class="ai-label">AI Interviewer</div><div id="question" class="question">Start the interview from the Analyze step.</div><button id="speakQuestion" class="secondary">🔊 Speak question</button></div>
+<div class="card answer-card"><div class="card-title"><span>Your answer</span><span class="hint" id="voiceState">Voice ready</span></div><div class="voice-row"><button id="voiceBtn" class="voice">🎙 Start speaking</button><button id="cameraBtn" class="secondary">📹 Camera</button></div><textarea id="answerText" placeholder="Speak your answer or type it here..."></textarea><div class="video-wrap hidden"><video id="video" autoplay muted></video><div class="video-note">Camera is optional and is not used for emotion scoring.</div></div><button id="submitAnswer" class="primary wide">Submit answer →</button></div>
+</div><div class="progress"><div><span>Interview progress</span><span id="progressText">0 / 9</span></div><div class="bar"><div id="progressBar"></div></div></div>
+<div id="liveFeedback"></div>
+</section>
+<section id="results" class="view"><div id="resultsOut"><div class="empty"><div class="empty-icon">✓</div><h2>Your report will appear here.</h2><p>Complete the interview to receive an overall score, competency breakdown, question-level feedback, strengths, weaknesses, preparation gaps and readiness.</p></div></div></section>
+<section id="history" class="view"><div class="card"><div class="card-title"><span>Interview history</span><button id="refreshHistory" class="secondary">Refresh</button></div><div id="historyOut">No completed interviews yet.</div></div></section>
+</main>
+<footer>Built for the AI Product Engineer Intern — Interview Accelerator Challenge</footer>
+</div><script src="/static/app.js"></script></body></html>
