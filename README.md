@@ -81,3 +81,12 @@ Optional LLM provider (Groq/OpenAI-compatible)
 
 ## Deployment
 The included `Dockerfile` and `render.yaml` are ready for a standard Render-style deployment. Use HTTPS in production so browser microphone/camera permissions work reliably.
+## Screenshots
+<img width="1897" height="902" alt="Screenshot 2026-10-06 222745" src="https://github.com/user-attachments/assets/b8aed2fd-4771-41a4-ab05-b35cd75c3936" />
+<img width="1897" height="901" alt="Screenshot 2026-10-06 222951" src="https://github.com/user-attachments/assets/fba5a5d5-363a-4fb2-ae6c-1e73696a91d9" />
+<img width="1175" height="882" alt="Screenshot 2026-10-06 223050" src="https://github.com/user-attachments/assets/d0d8fc4d-55ab-4ad9-8895-5952f8bc9f37" />
+<img width="1896" height="812" alt="Screenshot 2026-10-06 223130" src="https://github.com/user-attachments/assets/fd9c6568-bed3-46b1-b2bd-660d4e7965a1" />
+
+
+
+
